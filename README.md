@@ -12,7 +12,8 @@ INTRODUCTION The drone is equipped with auto path planning technology. If it is 
 The path planning algorithms and avoidance have been developed in python fully The computer vision algorithms have been built in pytorch. 
  
 ## METHOD/WORKFLOW 
- ![](Diagram.png)
+ ![](UntitledDiagram.png)
+ 
 The above diagram explains the workflow of the UAV and how it is to be operated. 1. The drone is launched from the ground station which is basically the home location to the drone. 2. The drone is given waypoints it needs to complete one by one to complete one lap. Piloting and maneuvering the drone is not at all required as it can avoid obstacles and plan its path autonomously. 3. When a gathering is detected, the user is informed about the Count, Live feed video and Location of the same. Now it is the user’s decision to either command the drone to resume its path or go near the gathering to alert/warn them(pre-recorded alert dialect through speakers).  
  
 This is a screenshot from the simulated world on which the above method was applied. Actual scene without computer vision running 
